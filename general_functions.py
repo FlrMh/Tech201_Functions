@@ -11,7 +11,7 @@
     #print("Something has been printed.")
 # # def = define; creating a function, followed by the name we give the function.
 # # print_something = name of function
-# # () after the function name = arguments for function(when we want to use the function), condition!!
+# # () after the function name = parameters for function(when we want to use the function).
 # # print("something has been printed.") = what we are asking the function to do.
 #print_something() # way of running the function
 

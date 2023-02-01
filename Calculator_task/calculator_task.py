@@ -20,7 +20,7 @@ def divide(num_1: float, num_2: float) -> float:
 
 # Conversion to m function
 def convert(num_3: float) -> float:
-    return num_3 * 0.0001
+    return num_3 * 0.01
 
 
 
@@ -31,10 +31,8 @@ operator_choice = input("What calculation would you like to perform? (add, sub, 
 
 if operator_choice == "conv":
     num_3 = float(input("Please enter the number you want to convert(1st conversion - from cm to m; 2nd conversion - from m to feet):")) # if "conv" is chosen, then the user will be prompted to pick a number to convert from cm to m
-    print((convert(num_3)))
-    print("meters")
-    print(num_3 * 3.2808399)
-    print("feet")
+    print(convert(num_3), "in meters")
+    print((num_3 * 0.0328), "in feet")
 else:
     num_1 = float(input("Please, enter the first number: ")) # this will ask for the first choice of number from the user, which will be stored and then used in operations.
     num_2 = float(input("Please, enter the second number: ")) # this will ask for the second choice of number from the user, which will be stored and then used in calculations, alongside the num_1.
