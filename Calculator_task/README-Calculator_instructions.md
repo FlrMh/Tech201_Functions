@@ -12,7 +12,7 @@ In order to use the calculator, please follow the instructions:
 - You will now be prompted to introduce your choices of operation from the list provided.
 
     i.e. "add" + `Enter`
-2. If you chose "conv", then you will be prompted to introduce the number you want to convert from cm to m. Then, press `Enter` and your result should be prompted.
+2. If you chose "conv", then you will be prompted to introduce the number you want to convert(first: from cm to m; second: from m to feet). Then, press `Enter` and your result should be prompted.
 3. If you chose another operation than "conv", then you will be prompted to introduce your choice of numbers to perform the other operations with.
 - Now, you should be able to introduce your 1st choice of number. When introduced, press `Enter`.
 - Now, you need to introduce your 2nd choice of number. When introduced, press `Enter`.
